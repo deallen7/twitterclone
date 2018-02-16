@@ -29,4 +29,58 @@ body {
 	left: 50%;
 }
 
+.post-panel {
+	margin-top: -21px;
+}
 
+
+.post-title {
+	text-align: left;
+	margin-left: 20px;
+}
+
+.post-owner {
+	color: black;
+	font-weight: bold;
+}
+
+.post-creation {
+	opacity: 0.65;
+}
+
+.post-content {
+	text-align: left;
+	margin-left: 0px;
+}
+
+.post-link {
+	text-align: left;
+}
+
+.g-links {
+	opacity: 0.5;
+	font-size: 120%;
+	margin-right: 75px;
+	margin-top: 15px;
+}
+
+.form-control {
+	
+}
+
+.button-control {
+	background-color: #437AB2;
+	buttonface: #437AB2;
+}
+
+input[type=submit] {
+    background-color: #437AB2;
+    border-bottom-color: #437AB2;
+    border-top-color: #437AB2;
+    border-left-color: #437AB2;
+    border-right-color: #437AB2;
+}
+
+.post-form-panel {
+	margin-bottom: -21px;
+}
