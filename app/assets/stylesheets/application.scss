@@ -14,3 +14,17 @@
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+.navbar {
+	background-color: white;
+}
+
+body {
+	background-color: #E7ECF0;
+}
+
+.navbar-brand {
+	position: absolute;
+	left: 50%;
+}
