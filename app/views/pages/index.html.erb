@@ -1,2 +1,76 @@
-<h1>Pages#index</h1>
-<p>Find me in app/views/pages/index.html.erb</p>
+<% if !user_signed_in? %>
+	<style type="text/css">
+		body { background: linear-gradient(
+				rgba(0,0,0, 0.6),
+				rgba(0,0,0, 0.6)),
+				url("/yorkshire-2900064_1920.jpg"); no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+
+		h1 {
+			color: white;
+			font-weight: bold;
+		}
+
+		.container-index {
+			margin-left: 15%;
+			margin-right: 15%;
+		}
+
+		.text {
+			color: white;
+			font-weight: 300;
+			font-size: 150%;
+		}
+
+		.footer-links {
+			text-align: center;
+			color: white;
+			margin-top: 30%;
+			font-size: 75%;
+		}
+
+		.log-in {
+			float: right;
+			height: 150px;
+			width: 250px;
+		}
+
+		.sign-up {
+			float: right;
+			height: 250px;
+			width: 250px;
+		}
+
+	</style>
+	<div class="container-index row">
+		<div class="col-sm-6">
+			<h1>Welcome to Twitter</h1>
+			<p class="text">
+			Connect with your friends -- and other fascinating people.<br>
+			 Get in-the-moment updates on the things that interest you. <br>
+			 And watch events unfold, in real time, from every angle. <br>
+			</p>
+		</div>
+
+		<div class="col-sm-6">
+			<div class="log-in panel">
+
+			</div>
+			<div class="sign-up panel">
+
+			</div>
+		</div>
+
+		<div class="col-sm-12">
+			<p class="footer-links">
+			About   Help   Blog   Status   Jobs   Terms   Privacy   Cookies   Ads   Info   Brand   Advertise   Businesses   Media   Developers   Directory   Settings   © 2018 Twitter
+			</p>
+		</div>
+	</div>
+<% else %>
+	Signed in
+<% end %>
